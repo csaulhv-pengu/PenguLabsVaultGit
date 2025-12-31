@@ -1,3 +1,33 @@
+---
+Language: Rust
+Author: PenguLabs
+---
+
+```
+dHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHb
+HHP%%#%%%%%%%%%%%%%%%%#%%%%%%%#%%VHH
+HH%%%%%%%%%%#%v~~~~~~\%%%#%%%%%%%%HH
+HH%%%%%#%%%%v'        ~~~~\%%%%%#%HH
+HH%%#%%%%%%v'dHHb      a%%%#%%%%%%HH
+HH%%%%%#%%v'dHHHA     :%%%%%%#%%%%HH
+HH%%%#%%%v' VHHHHaadHHb:%#%%%%%%%%HH
+HH%%%%%#v'   `VHHHHHHHHb:%%%%%#%%%HH
+HH%#%%%v'      `VHHHHHHH:%%%#%%#%%HH
+HH%%%%%'        dHHHHHHH:%%#%%%%%%HH
+HH%%#%%        dHHHHHHHH:%%%%%%#%%HH
+HH%%%%%       dHHHHHHHHH:%%#%%%%%%HH
+HH#%%%%       VHHHHHHHHH:%%%%%#%%%HH
+HH%%%%#   b    HHHHHHHHV:%%%#%%%%#HH
+HH%%%%%   Hb   HHHHHHHV'%%%%%%%%%%HH
+HH%%#%%   HH  dHHHHHHV'%%%#%%%%%%%HH
+HH%#%%%   VHbdHHHHHHV'#%%%%%%%%#%%HH
+HHb%%#%    VHHHHHHHV'%%%%%#%%#%%%%HH
+HHHHHHHb    VHHHHHHH:%odHHHHHHbo%dHH
+HHHHHHHHboodboooooodHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+VHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHV
+```
+---
 # Variables
 ## What is a variable?
 A variable is a name that points to a specific value in memory.
@@ -61,7 +91,7 @@ Types of data (primitive):
 
 - **Float (f64)**
 	- Range (-1.8x10³⁰⁸ < f64 < 1.8x10³⁰⁸)
-	- Minimum positive number (not zero): 2.2 x 10³⁰⁸
+	- Minimum positive number (not zero): 2.2 x 10⁻³⁰⁸
 - **Boolean (bool)**
 	- True
 	- False

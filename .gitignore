@@ -1,0 +1,6 @@
+# Rust build artifacts
+target/
+
+# Optional: editor stuff
+.DS_Store
+.vscode/

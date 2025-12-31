@@ -1,57 +1,3 @@
----
-Language: Rust
-Author: PenguLabs
----
-
-```
-dHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHb
-HHP%%#%%%%%%%%%%%%%%%%#%%%%%%%#%%VHH
-HH%%%%%%%%%%#%v~~~~~~\%%%#%%%%%%%%HH
-HH%%%%%#%%%%v'        ~~~~\%%%%%#%HH
-HH%%#%%%%%%v'dHHb      a%%%#%%%%%%HH
-HH%%%%%#%%v'dHHHA     :%%%%%%#%%%%HH
-HH%%%#%%%v' VHHHHaadHHb:%#%%%%%%%%HH
-HH%%%%%#v'   `VHHHHHHHHb:%%%%%#%%%HH
-HH%#%%%v'      `VHHHHHHH:%%%#%%#%%HH
-HH%%%%%'        dHHHHHHH:%%#%%%%%%HH
-HH%%#%%        dHHHHHHHH:%%%%%%#%%HH
-HH%%%%%       dHHHHHHHHH:%%#%%%%%%HH
-HH#%%%%       VHHHHHHHHH:%%%%%#%%%HH
-HH%%%%#   b    HHHHHHHHV:%%%#%%%%#HH
-HH%%%%%   Hb   HHHHHHHV'%%%%%%%%%%HH
-HH%%#%%   HH  dHHHHHHV'%%%#%%%%%%%HH
-HH%#%%%   VHbdHHHHHHV'#%%%%%%%%#%%HH
-HHb%%#%    VHHHHHHHV'%%%%%#%%#%%%%HH
-HHHHHHHb    VHHHHHHH:%odHHHHHHbo%dHH
-HHHHHHHHboodboooooodHHHHHHHHHHHHHHHH
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-VHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHV
-```
----
-
-
-- **Integers**
-	- Supports + - * / %
-	- Int/Int does not get you any decimals.
-- **Float**
-	- Sames as integers but with decimals in results
-- **Boolean**
-	- Logic operators
-	- && AND
-	- || OR
-	- ! Negative
-- **Char**
-	- It represents a single one Unicode character
-	- It can be compared with other chars
-- **&str**
-	- Immutable (Allocated out site the heap)
-	- Can be combined with format!
-- **String**
-	- Mutable (Heap allocated)
-	- Allows push, push_str and concatenation with +
-
-
-```rust
 fn main() {
     // =====================
     // Signed integers (i32)
@@ -62,7 +8,7 @@ fn main() {
     println!("i32 sum: {}", a + b);
     println!("i32 sub: {}", a - b);
     println!("i32 mul: {}", a * b);
-    println!("i32 div: {}", a / b)
+    println!("i32 div: {}", a / b);
     println!("i32 mod: {}", a % b);
     
     // =====================
@@ -131,4 +77,3 @@ fn main() {
     let full = name + " Rocks!";
     println!("{}", full);
 }
-```
