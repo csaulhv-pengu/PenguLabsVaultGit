@@ -1,0 +1,1 @@
+/home/cris/Documents/Projects/PenguLabs/PenguLabsVault/Rust/Code/01_Fundamentals/hello_world/target/debug/hello_world: /home/cris/Documents/Projects/PenguLabs/PenguLabsVault/Rust/Code/01_Fundamentals/hello_world/src/main.rs
