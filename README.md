@@ -1,4 +1,4 @@
-# PenguLab Vault for programming courses
+# PenguLabs Vault for programming courses
 
 This repository contains notes and example code for the Rust programming course on my YouTube channel PenguLabs.
 
