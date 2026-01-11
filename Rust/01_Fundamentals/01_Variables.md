@@ -37,7 +37,7 @@ For rust, it is declared using reserved word: "let"
 let x = 5;
 ```
 
-![[Pasted image 20251230213606.png]]
+![[variables.png]]
 
 ---
 ## Immutability
